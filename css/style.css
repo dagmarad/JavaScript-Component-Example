@@ -1,15 +1,41 @@
-li{
-  width: 250px;
+*{
+  font-size:16px;
+  font-family: Raleway, sans-serif;
+  color:#e2e2e2;
+  line-height:1.2;
+}
+.block__image{
+  background-image: url('coffetable.jpg');
+  repeat:no-repeat;
+  background-size: cover;
+  height:100vh;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+}
+body, h3, ul{
+  margin: 0;
+  padding:0;
 }
 ul{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
+  margin:4rem;
+
+  list-style-type: none;
 }
-h1{
+ li a{
+   text-decoration: none;
+   font-weight: 500;
+ }
+ li{
+   margin-top:1.25rem;
+ }
+ a:hover{
+   color:#fff;
+ }
+h3{
   font-size:2rem;
 }
-h3{
-  padding-bottom:10px;
-  padding-top:10px;
+.block__image__paragraph{
+display:none;
 }
